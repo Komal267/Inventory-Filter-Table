@@ -1,0 +1,29 @@
+.product-table {
+    width: 50%; /* Adjust width as needed */
+    border-collapse: collapse;
+    margin: 0 auto; /* Center the table */
+  }
+  
+  .product-table th, .product-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-table th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  .product-table th :hover{
+    font-weight: bold;
+    background-color: #5983f7;
+  }
+  
+  .product-table td {
+    padding: 8px;
+  }
+  
+  .products-table-container {
+    margin: 20px;
+  }
+  

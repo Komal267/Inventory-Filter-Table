@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.main-product{
+    width: 400px;
+    display:grid;
+    grid: row 100px; ;
+grid-template-columns: 360px;
+grid-template-rows: 50px 300px;
+background-color: rgb(99, 153, 201);
+
+}
+.form{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 40vw;
+    grid-template-rows: repeat(2,30px);
+}

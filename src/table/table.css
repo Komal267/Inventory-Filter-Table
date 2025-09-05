@@ -1,0 +1,88 @@
+.table{
+    border: 1px solid blue;
+    width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,400px );
+  /* grid-template-rows: repeat(9,50px); */
+  justify-content: center;
+  align-content: center;
+  /* grid-row: auto; */
+  margin-top: 5px;
+  /* margin-bottom: 5px; */
+  border-radius: 8px;
+  height: auto;
+}
+
+tbody{
+    display: grid;
+    /* row-gap: 10px; */
+    grid-auto-rows: 30px;
+    margin-bottom: 5px;
+   
+}
+thead{
+    display: grid;
+    column-gap: 10px;
+    /* border: 2px solid green; */
+    
+    margin: 3px;
+
+}
+.main-head{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    justify-content: center;
+    align-content: center;
+    
+    column-gap: 3px;
+}
+
+.head-1{
+    grid-column: 1/2;
+   text-align: center;
+}
+.head-2{
+    grid-column: 2/3;
+}
+tbody tr{
+    display: grid;
+grid-template-columns: repeat(2,48%);
+grid-auto-rows: 30px;
+/* border: 2px solid green; */
+/* row-gap:14px ; */
+/* border: 2px solid green; */
+}
+.category-rows{
+    grid-column: 1/3;
+}
+
+/* table.css */
+
+/* Style for the table element */
+.table table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures there are no gaps between the table cells */
+    /* border: 1px solid black; Adds a border around the entire table */
+  }
+  
+  /* Style for table headers (th) */
+  .table th {
+    border: 1px solid black; /* Adds borders around each header cell */
+    padding: 8px; /* Adds some padding inside each cell for better spacing */
+    /* text-align: left; Aligns text to the left */
+    background-color: #f2f2f2; /* Optional: Adds a background color for headers */
+  }
+  
+  /* Style for table data cells (td) */
+  .table td {
+    border: 1px solid black; /* Adds borders around each data cell */
+    padding: 8px; /* Adds some padding inside each cell for better spacing */
+    /* text-align: left; Aligns text to the left */
+  }
+  
+  /* Optional: Style for category row cells if needed */
+  .category-row td {
+    background-color: #e0e0e0; /* Optional: Adds a different background color for category rows */
+    font-weight: bold; /* Optional: Makes the category text bold */
+  }
+  

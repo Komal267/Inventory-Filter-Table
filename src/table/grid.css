@@ -1,0 +1,62 @@
+.productTable{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px,max-content))  ;
+    grid-template-rows:repeat(9, 1fr)  ;
+    /* border: 1px solid rgb(185, 22, 85); */
+    text-align: center;
+    font-weight: 500;
+    gap: 10px;
+    padding: 2px 10px;
+    justify-content: center;
+    align-content: center;
+    }
+     
+    .item-1{
+        display: grid;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(104, 35, 136); */
+    
+    }
+    .item-2{
+        display: grid;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(104, 35, 136); */
+    }
+    .item-3{
+        grid-column: 1/-1;
+    }
+    .item-6,.item-9{
+        color: red;
+    }
+    
+    .item-7{
+        grid-column: 1/-1;
+    }
+    .categoryFruit{
+        grid-column: 1/2;
+    }
+    .categoryColumn{
+        grid-column: 2/3;
+    }
+    
+    .item-11{
+        grid-row: 3/4;
+    }
+    .item-12{
+        grid-row: 4/5;
+    }
+    .item-13{
+        grid-row: 5/6;
+    }
+    
+    .item-14{
+        grid-row: 7/8;
+    }
+    .item-15{
+        grid-row: 8/9;
+    }.item-16{
+        grid-row: 9/10;
+    }
+    
